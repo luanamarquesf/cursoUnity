@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44661355, g: 0.4964527, b: 0.5748364, a: 1}
+  m_IndirectSpecularColor: {r: 0.44661337, g: 0.49645275, b: 0.57483655, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -396,9 +396,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292575751}
-  m_LocalRotation: {x: 0.0023314347, y: 0.7117705, z: -0.0023007572, w: 0.7024045}
-  m_LocalPosition: {x: 10, y: 7.4, z: -26.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.0023314208, y: 0.7117705, z: -0.0023007542, w: 0.7024045}
+  m_LocalPosition: {x: 66.88, y: 5.61, z: -10.22}
+  m_LocalScale: {x: 0.99, y: 0.99, z: 0.92779833}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -483,9 +483,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 6275814098903575159, guid: f88b59e46e074d442b53be2d3cfda4ef, type: 3}
-  positionX: 26
-  positionY: -3
-  positionZ: 28
 --- !u!4 &469677288
 Transform:
   m_ObjectHideFlags: 0
@@ -1208,19 +1205,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 461432, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.98006964
+      value: 0.7071067
       objectReference: {fileID: 0}
     - target: {fileID: 461432, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.19865426
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 461432, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000015855614
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 461432, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000003213838
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 13514702, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
       propertyPath: m_Material
@@ -1229,7 +1226,7 @@ PrefabInstance:
     - target: {fileID: 21296042, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300008, guid: 2074c57bbb65b9b44a37c2e7bf41b852, type: 3}
+      objectReference: {fileID: 21300026, guid: 2074c57bbb65b9b44a37c2e7bf41b852, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
 --- !u!1 &1160255166
