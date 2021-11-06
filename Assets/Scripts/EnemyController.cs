@@ -8,7 +8,13 @@ public class EnemyController : MonoBehaviour
 
     public int vida = 10;
 
-    public float velocity = 0.01f;
+    public float velocity = 0.0001f;
+
+    public float position_X = 1; //soma e subtrai
+    public float position_Y = 0; //soma e subtrai
+    public float position_Z = 1; //sub
+
+    public float dificultLevel = 0.01f;
 
     private void Start()
     {
@@ -18,7 +24,10 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 step = target.transform.position - transform.position;
+        position_Z += dificultLevel;
+        //positionY += dificultLevel;
+        Debug.Log(position_X);
+        Vector3 step = new Vector3(26 + position_X, 1 + position_Y, 28 - position_Z);
         transform.position += step * velocity;
     }
 }
