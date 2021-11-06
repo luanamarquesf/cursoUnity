@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44661337, g: 0.49645275, b: 0.57483655, a: 1}
+  m_IndirectSpecularColor: {r: 0.44661355, g: 0.4964527, b: 0.5748364, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -318,6 +318,7 @@ GameObject:
   - component: {fileID: 292575754}
   - component: {fileID: 292575753}
   - component: {fileID: 292575752}
+  - component: {fileID: 292575755}
   m_Layer: 0
   m_Name: New Text
   m_TagString: Untagged
@@ -402,6 +403,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0.375, y: 90.759, z: 0.005}
+--- !u!114 &292575755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292575751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 401d8ca0cc4a1c94da94300f65b7a668, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pontuacao: {fileID: 292575752}
 --- !u!1 &375719783 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 124712, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
@@ -1194,19 +1208,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 461432, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.705059
+      value: 0.98006964
       objectReference: {fileID: 0}
     - target: {fileID: 461432, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.02221676
+      value: 0.19865426
       objectReference: {fileID: 0}
     - target: {fileID: 461432, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.70844895
+      value: -0.000000015855614
       objectReference: {fileID: 0}
     - target: {fileID: 461432, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.022323577
+      value: 0.000000003213838
       objectReference: {fileID: 0}
     - target: {fileID: 13514702, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
       propertyPath: m_Material
@@ -1215,7 +1229,7 @@ PrefabInstance:
     - target: {fileID: 21296042, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300020, guid: 2074c57bbb65b9b44a37c2e7bf41b852, type: 3}
+      objectReference: {fileID: 21300008, guid: 2074c57bbb65b9b44a37c2e7bf41b852, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0cb544f943ea544baaa75cbb6c75bba, type: 3}
 --- !u!1 &1160255166

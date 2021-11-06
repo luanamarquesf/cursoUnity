@@ -31,6 +31,7 @@ public class MovimentoDeTiro : MonoBehaviour
         thisEnemyController.vida--;
         if(thisEnemyController.vida < 0)
         {
+            EnemyCounter.inimigosMortos++; 
             Destroy(collision.gameObject);
         }
     }
