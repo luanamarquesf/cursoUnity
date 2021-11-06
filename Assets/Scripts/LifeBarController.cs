@@ -20,9 +20,8 @@ public class LifeBarController : MonoBehaviour
     {
         if(myEnemy != null)
         {
-        transform.position = new Vector3(myEnemy.transform.position.x, myEnemy.transform.position.y + 3, myEnemy.transform.position.z);
-        myImage.fillAmount = (float)myEnemy.vida / 10.0f;
-
+            transform.position = new Vector3(myEnemy.transform.position.x, myEnemy.transform.position.y + 3, myEnemy.transform.position.z);
+            myImage.fillAmount = (float)myEnemy.vida / 10.0f;
         }
     }
 }

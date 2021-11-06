@@ -34,8 +34,11 @@ public class EnemySpawner : MonoBehaviour
 
     public void SpawnEnemy()
     {
-        Vector3 enemyPosition = new Vector3(26,
-            1, 28);
+        Vector3 enemyPosition = new Vector3(26, 1, 28);
+        
+        if(enemysAlive.Count > 1){
+            return;
+        }
 
         GameObject newEnemy = Instantiate(enemy, enemyPosition, Quaternion.identity);
         enemysAlive.Add(newEnemy);

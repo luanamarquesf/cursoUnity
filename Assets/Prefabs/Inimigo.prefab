@@ -247,10 +247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 3
-  velocity: 0.01
-  position_X: 1
-  position_Y: 3
-  position_Z: 1
+  velocity: 0.2
   dificultLevel: 1
 --- !u!1 &8007653965120414751
 GameObject:

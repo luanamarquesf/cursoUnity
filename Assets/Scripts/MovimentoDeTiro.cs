@@ -12,12 +12,10 @@ public class MovimentoDeTiro : MonoBehaviour
     void Update()
     {
         lifeTime -= Time.deltaTime;
-
         if(lifeTime <= 0)
         {
             Destroy(gameObject);
         }
-
         gameObject.transform.position += gameObject.transform.forward * velocity;
     }
 
@@ -31,7 +29,6 @@ public class MovimentoDeTiro : MonoBehaviour
         }
 
         thisEnemyController.vida--;
-
         if(thisEnemyController.vida < 0)
         {
             Destroy(collision.gameObject);
