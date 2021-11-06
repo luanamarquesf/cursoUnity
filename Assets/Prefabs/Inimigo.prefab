@@ -118,7 +118,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 41.4
+  m_Radius: 36
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6275814098903575159
 GameObject:
@@ -246,11 +246,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c550128313b063a4e9b935b56b4288fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 10
+  vida: 3
   velocity: 0.01
-  position_Z: 1
   position_X: 1
   position_Y: 3
+  position_Z: 1
   dificultLevel: 1
 --- !u!1 &8007653965120414751
 GameObject:
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 4738601502157303352}
   m_Layer: 5
   m_Name: BarraDeVida
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -18,7 +18,11 @@ public class LifeBarController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(myEnemy != null)
+        {
         transform.position = new Vector3(myEnemy.transform.position.x, myEnemy.transform.position.y + 3, myEnemy.transform.position.z);
         myImage.fillAmount = (float)myEnemy.vida / 10.0f;
+
+        }
     }
 }
