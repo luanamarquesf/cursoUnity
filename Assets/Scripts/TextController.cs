@@ -15,7 +15,7 @@ public class TextController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        pontuacao.text = "Pontua��o " + EnemyCounter.inimigosMortos.ToString();
+        pontuacao.text = "Pontuacao " + EnemyCounter.inimigosMortos.ToString();
         if(EnemyCounter.victory){
             pontuacao.text = "Parabéns! Você venceu :D. Pressione Q para sair.";
             if (Input.GetKeyDown(KeyCode.Q)){
